@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
-import Title, { Button, LikeButton, Haha } from './Title'
+import Title, { Button, LikeButton, Haha, Form } from './Title'
 import Square from './Square'
 
 
@@ -79,6 +79,8 @@ class App extends Component {
             })}
           </div>
         </header>
+
+        <Form />
       </Fragment>
     );
   }
